@@ -151,7 +151,7 @@ st.pyplot(fig) # streamlit 대시보드에 표현
 st.header('image 실습')
 
 from PIL import Image
-img = Image.open('./data/naver_image/lebao/1.png')
+img = Image.open('./output/naver_image/lebao/1.png')
 st.image(img,width = 300, caption='Image from Naver')
 
 # sidebar
